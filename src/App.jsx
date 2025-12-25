@@ -1,17 +1,12 @@
-import { createBrowserRouter, createRoutesFromElements, Route } from "react-router"
-
+import Home from "./Component/Home"
 
 function App() {
 
-  const myRout= createBrowserRouter(createRoutesFromElements(
-    <Route>
-      <Route path="" element={}/>
-    </Route>
-  ))
+  
 
   return (
     <>
-      
+      <Home/>
     </>
   )
 }
